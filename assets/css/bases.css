@@ -1,0 +1,26 @@
+:root {
+  --background_claro: #D9D9D9;
+  --background_clarito: #dbd0d8;
+  --background_oscuro: #30292e;
+  --background_negro: #000000;
+
+  --letras_blancas: #ffffff;
+
+  --letras_negras: #000000;
+
+  --boton_rosa: #ff8376;
+  --boton_turquesa: #14c4c2;
+}
+
+html {
+  background: var(--background_claro);
+  font-family:  Rubik , Lobster, Rajdhani;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 62.5%;
+  width: 100vw;
+}
+
+
+

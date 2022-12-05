@@ -1,0 +1,45 @@
+.cabecera {
+  color: var(--letras_negras);
+  width: 100vw;
+  height: auto;
+  border: none;
+}
+
+.contacto {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.logo{
+    width: 55%;
+    height: 25%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+@media (max-width: 768px){
+  .logo{
+    width: 75%;
+    height: auto;
+  
+}
+.contacto {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+}
+@media (min-width: 769px){
+  .logo{
+    width: 75%;
+    height: auto;
+  
+}
+.contacto {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+}
+
+/* Ejecuta estas condiciones CSS para resoluciones entre 1023 y 1280px*/
+@media screen and (min-width:1023px) {
+
+}

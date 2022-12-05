@@ -1,0 +1,49 @@
+.hobbies {
+  width: 100%;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.hobbies__title {
+  font-family: Lobster, Rubik;
+  font-size: 4rem;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.hobbies__line {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.hobbies__box {
+  width: 12rem;
+  font-size: 2.5rem;
+  font-weight: 3rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.hobbies__img img {
+  width: 10rem;
+  height: 10rem;
+}
+
+@media (max-width: 768px){
+.hobbies__box {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family:  Roboto;
+}
+.hobbies__img{
+  width: 12rem;
+  height: auto;
+ 
+}
+}

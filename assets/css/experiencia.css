@@ -1,0 +1,121 @@
+.experience {
+  width: 100%;
+  height: auto;
+
+}
+.experience__section__title {
+  font-family: Lobster, Rubik;
+  font-size: 4rem;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.experiencie__box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+.experience__img {
+  width: 30rem;
+  height: auto;
+
+}
+.experience__info{
+    display: flex;
+    flex-direction: column;
+   margin: 2rem;
+    font-family: Rubik;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.experience__title{
+    font-size:3rem;
+    margin-bottom: 1rem;
+    
+}
+.experience__text{
+    font-size:2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.experiencia__botao--repo{
+    font-family: Rubik;
+    color: black;
+  border: 2px solid #255c80;
+  border-radius: 12px;
+  padding: 10px 30px;
+  font-size: 2rem;
+  transition-duration: 0.4s;
+}
+.experiencia__botao--repo:hover{
+background-color: #255c80; 
+  color: white;
+}
+@media (max-width: 768px){
+  .experiencie__box{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .experience__img{
+    width:45rem;
+    height: auto;
+  }
+
+  .experience__info{
+  font-size: 3.5rem;
+  width: 45rem;
+  font-weight: bold;
+  }
+  .experience__text{
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+  .experiencia__botao--repo{
+font-size: 3rem;
+  }
+}
+@media (min-width: 769px){
+
+.experience__info{
+  font-size: 3.5rem;
+ 
+}
+
+.experiencia__botao--repo{
+  font-size: 3rem;
+}
+ .experience__text{
+  font-size: 2.7rem;
+ }
+ 
+}
+@media screen and (min-width:1023px) {
+.experience__container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.experiencie__box{
+  width: 30rem;
+  margin: 5rem;
+  padding:1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+}
